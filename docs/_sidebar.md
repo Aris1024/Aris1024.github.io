@@ -5,5 +5,5 @@
 
 - 后端笔记
 
-  - [01. ssh和scp免密](Server/ssh免密登录scp拷贝文件.md)
+  - [01. ssh和scp免密](Server/01_ssh免密登录scp拷贝文件.md)
 
