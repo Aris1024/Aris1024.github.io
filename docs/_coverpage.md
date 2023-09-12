@@ -1,6 +1,6 @@
 ![logo](_media/icon.svg)
 
-# docsify <small>3.5</small>
+# docsify <small>4</small>
 
 > 一个神奇的文档网站生成器。
 
@@ -9,4 +9,4 @@
 - 众多主题
 
 [GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#entry)
+[Get Started](entry)
