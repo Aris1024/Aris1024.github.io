@@ -3,6 +3,4 @@
 
 [GitHub](https://github.com/zhangjingle/)
 
-[FE](fe)
-
-[前端](前端)
+[前端](/fe/前端.md)

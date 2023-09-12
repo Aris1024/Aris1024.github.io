@@ -1,2 +1,3 @@
-# sidebar !
-* [前端指南](FE/home)
+
+* [前端指南](fe/README.md "前端指南")
+* [后端指南](server/README)
