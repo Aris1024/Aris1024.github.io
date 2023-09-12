@@ -34,23 +34,19 @@ scp ./TF_redeem_pupup.png bhjr@10.20.200.101:/app/public/file/common/app/test/zj
 
 ```shell
 Host 101
-   User bhjr
+   User root
    Hostname 10.20.200.101
    IdentityFile ~/.ssh/id_rsa
 
 Host 111
-   User bhjr
+   User root
    Hostname 10.20.200.111
    IdentityFile ~/.ssh/id_rsa
 
 Host 121
-   User bhjr
-   Hostname 10.20.200.121
-   IdentityFile ~/.ssh/id_rsa
-Host vps
    User root
-   Hostname 23.105.222.131
-   Port 27953
+   Hostname 10.20.200.121
+   Port 22
    IdentityFile ~/.ssh/id_rsa
 ```
 
