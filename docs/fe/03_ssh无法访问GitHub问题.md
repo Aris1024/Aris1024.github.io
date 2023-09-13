@@ -23,6 +23,6 @@ pbcopy < ~/.ssh/id_rsa.pub
 ![img.png](assets/img_2023091202.png)
 ## 测试SSH链接
 ```shell
-$ ssh -T git@github.com
+ssh -T git@github.com
 ```
 
