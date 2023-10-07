@@ -10,7 +10,8 @@
   - [09. server配置cookie路径el-table不显示.md](fe/09_server配置cookie路径el-table不显示.md)
   - [10. uniapp静态目录.md](fe/10_uniapp静态目录.md)
   - [11. vue-router中的TS](fe/11_vue-router中的TS.md)
-  - 
+  - [12. git代码分支管理规范](fe/12_git代码分支管理规范.md)
+  - [13. 获取App特征信息(App备案)](fe/13_获取App特征信息(App备案).md)
   
 - 后端笔记
   - [01. ssh和scp免密](server/01_ssh免密登录scp拷贝文件.md)
