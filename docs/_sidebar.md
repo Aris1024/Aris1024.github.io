@@ -23,4 +23,5 @@
     - [02._uini-app识别@路径](webstorm/02_uini-app识别@路径.md)
     - [03._uni-app 提示 rpx错误飘红](webstorm/03_uni-app提示rpx错误飘红.md)
     - [04._uni-app eslint配置](webstorm/04_uni-app%20eslint配置.md)
+    - [05. 调试Typescript](webstorm/05_调试Typescript.md)
 
