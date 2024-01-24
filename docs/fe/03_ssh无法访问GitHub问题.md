@@ -19,7 +19,16 @@ ssh-keygen -t rsa -C "zhangdz@gmail.com"
 pbcopy < ~/.ssh/id_rsa.pub 
 ```
 
+Windows 打开 PowerShell
+
+```sh
+cat ~\.ssh\id_rsa.pub | clip
+```
+
+
+
 ## GitHub添加ssh秘钥
+
 ![img.png](assets/img_2023091201.png)
 ![img.png](assets/img_2023091202.png)
 ## [GitHub文档-测试SSH链接](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection)
