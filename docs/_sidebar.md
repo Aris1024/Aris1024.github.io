@@ -13,11 +13,10 @@
   - [12. git代码分支管理规范](fe/12_git代码分支管理规范.md)
   - [13. 获取App特征信息(App备案)](fe/13_获取App特征信息(App备案).md)
   - [14. 可选链(?.)和空值合并(??)](fe/14_可选链和空值合并.md)
-  
+  - [17. ssh访问git服务器提示permission denied问题](fe/17_macOSVenture和Windows的ssh无法访问git服务器,解决permissiondenied问题.md)
 - 后端笔记
   - [01. ssh和scp免密](server/01_ssh免密登录scp拷贝文件.md)
   - [02. shell指令备忘](server/02_shell指令备忘.md)
-  
 - webstorm
     - [01. 不识别HTML标签 (uni-app)](webstorm/01_不识别HTML标签%20(uni-app).md)
     - [02._uini-app识别@路径](webstorm/02_uini-app识别@路径.md)
