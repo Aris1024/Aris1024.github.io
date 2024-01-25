@@ -14,6 +14,7 @@
   - [13. 获取App特征信息(App备案)](fe/13_获取App特征信息(App备案).md)
   - [14. 可选链(?.)和空值合并(??)](fe/14_可选链和空值合并.md)
   - [17. ssh访问git服务器提示permission denied问题](fe/17_macOSVenture和Windows的ssh无法访问git服务器,解决permissiondenied问题.md)
+  - [18. git仓库迁移](fe/18_git仓库迁移.md)
 - 后端笔记
   - [01. ssh和scp免密](server/01_ssh免密登录scp拷贝文件.md)
   - [02. shell指令备忘](server/02_shell指令备忘.md)
