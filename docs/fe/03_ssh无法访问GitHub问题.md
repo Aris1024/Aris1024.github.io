@@ -33,7 +33,7 @@ cat ~\.ssh\id_rsa.pub | clip
 ![img.png](assets/img_2023091202.png)
 ## [GitHub文档-测试SSH链接](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection)
 ```shell
-ssh -T git@github.com
+ssh -Tv git@github.com
 ```
 
 
