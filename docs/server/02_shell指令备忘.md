@@ -71,3 +71,15 @@ $ tar --exclude=logs --exclude=log --exclude=temp -zcvf app.tar.gz ./*
 
 
 
+4.切换用户
+
+```shell
+su root
+```
+
+5.查看实时日志
+
+```shell
+tail -f log/out.log
+```
+
