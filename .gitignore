@@ -16,6 +16,10 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+.DS_Store
+**/*/node_modules/
+**/*/pnpm-lock.*
+*.idea/
 
 # CocoaPods
 #
