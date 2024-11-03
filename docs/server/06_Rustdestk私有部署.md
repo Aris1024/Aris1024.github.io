@@ -24,7 +24,7 @@
 
     - 上传docker-compose.yml文件到 /root/docker_rustdesk
 
-    - ![image-20241021175055469](assets/image-20241021175055469.png)
+    - ![image-20241103101850112](assets/image-20241103101850112.png)
 
     - docker-compose.yml文件内容
 

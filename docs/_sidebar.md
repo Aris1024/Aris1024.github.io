@@ -22,6 +22,7 @@
   - [04. docker和服务器时间问题](server/04_docker和服务器时间问题.md)
   - [05. 终端代理](server/05_终端代理.md)
   - [06. Rustdesk 私有部署](server/06_Rustdestk私有部署.md)
+  - [07. AList 云盘docker私有部署](server/07_AList云盘私有部署.md)
 - webstorm
     - [01. 不识别HTML标签 (uni-app)](webstorm/01_不识别HTML标签%20(uni-app).md)
     - [02._uini-app识别@路径](webstorm/02_uini-app识别@路径.md)
