@@ -17,6 +17,7 @@
   - [17. ssh访问git服务器提示permission denied问题](fe/17_macOSVenture和Windows的ssh无法访问git服务器,解决permissiondenied问题.md)
   - [18. git仓库迁移](fe/18_git仓库迁移.md)
 - 后端笔记
+  - [00. 使用代理运行脚本](server/00_代理运行脚本.md)
   - [01. ssh和scp免密](server/01_ssh免密登录scp拷贝文件.md)
   - [02. shell指令备忘](server/02_shell指令备忘.md)
   - [03. express项目](server/03_express项目.md)
@@ -25,6 +26,7 @@
   - [06. Rustdesk 私有部署](server/06_Rustdestk私有部署.md)
   - [07. AList 云盘docker私有部署](server/07_AList云盘私有部署.md)
   - [08. gost](server/08_gost.md)
+  - [09. GitHub使用本地代理](server/09_GitHub使用本地代理.md)
 - webstorm
     - [01. 不识别HTML标签 (uni-app)](webstorm/01_不识别HTML标签%20(uni-app).md)
     - [02._uini-app识别@路径](webstorm/02_uini-app识别@路径.md)
