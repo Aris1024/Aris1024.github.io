@@ -1,4 +1,5 @@
 - 前端笔记
+  - [00. npm 切换淘宝源](fe/00_npm切换源.md)
   - [01. 事件循环](fe/01_事件循环.md)
   - [02. 页尾固定在底部](fe/02_页尾固定在底部.md)
   - [03. ssh无法访问GitHub问题](fe/03_ssh无法访问GitHub问题.md)
@@ -15,7 +16,6 @@
   - [14. 可选链(?.)和空值合并(??)](fe/14_可选链和空值合并.md)
   - [17. ssh访问git服务器提示permission denied问题](fe/17_macOSVenture和Windows的ssh无法访问git服务器,解决permissiondenied问题.md)
   - [18. git仓库迁移](fe/18_git仓库迁移.md)
-  - [19. gost](fe/19_gost.md)
 - 后端笔记
   - [01. ssh和scp免密](server/01_ssh免密登录scp拷贝文件.md)
   - [02. shell指令备忘](server/02_shell指令备忘.md)
@@ -24,6 +24,7 @@
   - [05. 终端代理](server/05_终端代理.md)
   - [06. Rustdesk 私有部署](server/06_Rustdestk私有部署.md)
   - [07. AList 云盘docker私有部署](server/07_AList云盘私有部署.md)
+  - [08. gost](server/08_gost.md)
 - webstorm
     - [01. 不识别HTML标签 (uni-app)](webstorm/01_不识别HTML标签%20(uni-app).md)
     - [02._uini-app识别@路径](webstorm/02_uini-app识别@路径.md)
