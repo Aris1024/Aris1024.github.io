@@ -29,7 +29,11 @@
 
 3. Windows 系统
 
-    - 需提前安装 `connect`
+    - 本地开启代理,并确保可用,我这里的端口是 **7897**
+
+        - ![image-20250516093309604](assets/image-20250516093309604.png)
+
+    - Windows 比较特殊,需提前安装 `connect`
 
         - 安装包管理工具 scoop [官网](https://scoop.sh/)
 
@@ -50,20 +54,20 @@
 
     - 开始配置
 
-    - ```bash
-        cd ~/.ssh # 进入用户目录的 .ssh 目录,如果没有就创建
-        vi config # 对 config 进行编辑
-        ```
+        - ```bash
+            cd ~/.ssh # 进入用户目录的 .ssh 目录,如果没有就创建
+            vi config # 对 config 进行编辑
+            ```
 
-    - ```bash
-        Host github.com
-            HostName github.com
-            User git
-            IdentityFile ~/.ssh/id_xxx
-            ProxyCommand connect -S 127.0.0.1:7897 %h %p
-        ```
+        - ```bash
+            Host github.com
+                HostName github.com
+                User git
+                IdentityFile ~/.ssh/id_xxx
+                ProxyCommand connect -S 127.0.0.1:7897 %h %p
+            ```
 
-    - 主要是这一行 `ProxyCommand connect -S 127.0.0.1:7897 %h %p`
+        - 主要是这一行 `ProxyCommand connect -S 127.0.0.1:7897 %h %p`
 
 4. 其他情况 (比如部署机器,已绑定ssh key,需特殊指定 GitHub 项目地址)
 
@@ -84,5 +88,4 @@
     git clone git@project.github.com:yourname/project_name.git
     ```
 
-- 
-
+- enjoy!😄
