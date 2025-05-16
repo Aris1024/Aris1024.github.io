@@ -16,6 +16,7 @@
   - [14. 可选链(?.)和空值合并(??)](fe/14_可选链和空值合并.md)
   - [17. ssh访问git服务器提示permission denied问题](fe/17_macOSVenture和Windows的ssh无法访问git服务器,解决permissiondenied问题.md)
   - [18. git仓库迁移](fe/18_git仓库迁移.md)
+  - [19. 网页开启右键和断点](fe/19_网页开启右键和断点.md)
 - 后端笔记
   - [00. 使用代理运行脚本](server/00_代理运行脚本.md)
   - [01. ssh和scp免密](server/01_ssh免密登录scp拷贝文件.md)
