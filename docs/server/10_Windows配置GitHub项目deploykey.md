@@ -12,9 +12,7 @@
 
     - 询问放置路径,修改复制下面的
 
-        - ```
-            C:\Users\Administrator/.ssh/id_project
-            ```
+        - C:\Users\Administrator/.ssh/id_project
 
     - ls 一下,就会发现有 `id_project.pub` 和 `id_project`两个内容
 
