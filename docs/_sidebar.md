@@ -27,7 +27,8 @@
   - [06. Rustdesk 私有部署](server/06_Rustdestk私有部署.md)
   - [07. AList 云盘docker私有部署](server/07_AList云盘私有部署.md)
   - [08. gost](server/08_gost.md)
-  - [09. GitHub使用本地代理](server/09_GitHub使用本地代理.md)
+  - [09. GitHub使用本地代理(还是代理香)](server/09_GitHub使用本地代理.md)
+  - [10. Windows配置GitHub项目deploykey](server/10_Windows配置GitHub项目deploykey.md)
 - webstorm
     - [01. 不识别HTML标签 (uni-app)](webstorm/01_不识别HTML标签%20(uni-app).md)
     - [02._uini-app识别@路径](webstorm/02_uini-app识别@路径.md)
