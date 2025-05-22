@@ -2,12 +2,12 @@
 
 ---
 
-1. 本地必须配置好可用代理,并且开启端口访问
+1. ## 本地必须配置好可用代理,并且开启端口访问
 
     - ![image-20250516085459046](assets/image-20250516085459046.png)
     - 我本机开启的是 7890 端口
 
-2. Mac 系统
+2. ## Mac 系统
 
     - ```bash
         cd ~/.ssh # 进入用户目录的 .ssh 目录,如果没有就创建
@@ -27,7 +27,7 @@
 
     - 主要是这一行 `ProxyCommand nc -v -x 127.0.0.1:7890 %h %p`
 
-3. Windows 系统
+3. ## Windows 系统
 
     - 本地开启代理,并确保可用,我这里的端口是 **7897**
 
@@ -69,7 +69,23 @@
 
         - 主要是这一行 `ProxyCommand connect -S 127.0.0.1:7897 %h %p`
 
-4. 其他情况 (比如部署机器,已绑定ssh key,需特殊指定 GitHub 项目地址)
+4. ## Debian 系统
+
+    - ###### **使用 `socat`（推荐）**`socat` 是一个强大的网络工具，可以替代 `nc` 的代理功能。
+
+    - `apt install socat`
+
+    - ```bash
+        Host project.github.com
+            HostName github.com
+            User git
+            IdentityFile ~/.ssh/id_project
+            ProxyCommand socat - PROXY:192.168.1.65:%h:%p,proxyport=7890
+        ```
+
+    - 
+
+5. ## 其他情况 (比如部署机器,已绑定ssh key,需特殊指定 GitHub 项目地址)
 
 - ```
     # 其他情况,比如部署机器,已绑定ssh key,需特殊指定 GitHub 项目地址
