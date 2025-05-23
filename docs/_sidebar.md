@@ -30,6 +30,7 @@
   - [09. GitHub使用本地代理(还是代理香)](server/09_GitHub使用本地代理.md)
   - [10. Windows配置GitHub项目deploykey](server/10_Windows配置GitHub项目deploykey.md)
   - [11. Windows配置vscode终端为gitbash](server/11_Windows配置vscode终端为gitbash.md)
+  - [12. crontab定时任务](server/12_crontab定时任务.md)
 - webstorm
     - [01. 不识别HTML标签 (uni-app)](webstorm/01_不识别HTML标签%20(uni-app).md)
     - [02._uini-app识别@路径](webstorm/02_uini-app识别@路径.md)
