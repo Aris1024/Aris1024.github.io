@@ -111,13 +111,18 @@ vi id_ed25519
 
 **注意: 私钥id_ed25519 私钥必须是这种格式,注意回车换行,注意首尾去空格**
 
->-----BEGIN OPENSSH PRIVATE KEY-----
->b3BlbnN******tzc2gtZW
->QyNTUxO******3UNE/91D
->RAAAAA******tlAzk92nB
->AAAEDj******u+8XcM3Pq
->T3acH4******cH5AAAABE
->-----END OPENSSH PRIVATE KEY-----
+```sh
+# 注意: 私钥id_ed25519 私钥必须是这种格式,注意回车换行,注意首尾去空格
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnN******tzc2gtZW
+QyNTUxO******3UNE/91D
+RAAAAA******tlAzk92nB
+AAAEDj******u+8XcM3Pq
+T3acH4******cH5AAAABE
+-----END OPENSSH PRIVATE KEY-----
+```
+
+
 
 ### 第三步: 在另外一台机器 ~/.ssh目录修改 私钥 id_ed25519权限
 
