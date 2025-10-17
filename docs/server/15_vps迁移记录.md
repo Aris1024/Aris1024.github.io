@@ -37,7 +37,7 @@
 4. 安装docker
     绕了很多弯路,直接说结果: [使用腾讯云的脚本](https://cloud.tencent.com/document/product/213/46000)
 
-    1. 执行以下命令，添加 Docker 软件源。
+    - 执行以下命令，添加 Docker 软件源。
         ```shell
         sudo apt-get update
         sudo apt-get install ca-certificates curl -y
@@ -48,20 +48,20 @@
         $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
         sudo apt-get update
         ```
-        
-    2. 执行以下命令，安装 Docker。
+    
+    - 执行以下命令，安装 Docker。
         ``` shell
         sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin 
         ```
-    3. 执行以下命令，运行 Docker。
+    - 执行以下命令，运行 Docker。
         ```shell
         sudo systemctl start docker 
         ```
-    4. 执行以下命令，检查安装结果。
+    - 执行以下命令，检查安装结果。
         ```shell
         sudo docker info
         ```
-    5. 其他命令
+    - 其他命令
         ```shell
         sudo systemctl stop docker
         sudo systemctl restart docker
@@ -104,4 +104,4 @@
     - 修改解析: 在我的账户中,找到域名解析,把IP 改成新机器IP地址
 
 9. 其他可能问题
-    ssl证书到期更新? 需配置 acme.sh 自动更新证书
+    ssl证书到期更新? -> 需配置 acme.sh 自动更新证书
