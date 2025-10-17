@@ -33,6 +33,9 @@
   - [11. Windows配置vscode终端为gitbash](server/11_Windows配置vscode终端为gitbash.md)
   - [12. crontab定时任务](server/12_crontab定时任务.md)
   - [13. ssh禁用密码认证(登录)](server/13_ssh禁用密码认证.md)
+  - [14. OpenList私有部署](server/14_OpenList部署.md)
+  - [15. vps迁移记录](server/15_vps迁移记录.md)
+  - [16. acme.sh配置ssl证书](server/16_acme.sh配置ssl证书记录.md)
 - webstorm
     - [01. 不识别HTML标签 (uni-app)](webstorm/01_不识别HTML标签%20(uni-app).md)
     - [02._uini-app识别@路径](webstorm/02_uini-app识别@路径.md)
