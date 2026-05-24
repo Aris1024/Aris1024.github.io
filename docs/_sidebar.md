@@ -19,7 +19,7 @@
   - [19. 网页开启右键和断点](fe/19_网页开启右键和断点.md)
   - [20. 独立Prettier批量格式化工具](fe/20_独立Prettier批量格式化工具.md)
   - [21. vsCode代码片段](fe/21_vsCode代码片段.md)
-  - [22. React进阶笔记:从Vue迁移到并发原理深度解析](fe/22_React进阶笔记:从Vue迁移到并发原理深度解析.md)
+  - [22. React进阶笔记从Vue迁移到并发原理深度解析](fe/22_React进阶_从Vue迁移到并发原理深度解析.md)
 - 后端笔记
   - [00. 使用代理运行脚本](server/00_代理运行脚本.md)
   - [01. ssh和scp免密](server/01_ssh免密登录scp拷贝文件.md)
