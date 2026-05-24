@@ -8,6 +8,14 @@
 
     - 创建 docker_openlist;
     - 进入docker_openlist, 创建data和files目录;
+    - ```sh
+        # 1. 创建 docker_openlist 目录并进入
+        mkdir -p ~/docker_openlist
+        cd ~/docker_openlist
+
+        # 2. 创建 data 和 files 目录
+        mkdir -p data files
+        ```
 
 2. 修改权限
 
@@ -23,24 +31,30 @@
         > - 1001 是一个安全的、不容易冲突的数字, root 用户的 UID 是 0, 普通用户通常从 1000 开始编号
         > - 1001:1001 对应 UID:GID
 
-3. 配置 compose.yml 文件
+3. 配置 docker-compose.yml 文件
+   - ```sh
+        touch docker-compose.yml
+        ```
 
     - ```yaml
         # docker-compose.yml
         services:
-          openlist:
+            openlist:
             image: 'openlistteam/openlist:latest'
             container_name: openlist
             volumes:
-              # OpenList 配置和数据库文件
-              - './data:/opt/openlist/data'
-              # 用户上传的文件存储目录（挂载到宿主机）
-              - './files:/opt/openlist/files'
+                # OpenList 配置和数据库文件
+                - './data:/opt/openlist/data'
+                # 用户上传的文件存储目录（挂载到宿主机）
+                - './files:/opt/openlist/files'
             ports:
-              - '5244:5244'
+                # 公网开放 0.0.0.0:5244 (若有防火墙,需开放对应端口)
+                - '5244:5244'
+                # 仅内网开放,公网无法访问 127.0.0.1:5244
+                #- '127.0.0.1:5244:5244'
             environment:
-              - UMASK=022
-              - TZ=Asia/Shanghai
+                - UMASK=022
+                - TZ=Asia/Shanghai
             restart: unless-stopped
         ```
 
@@ -71,5 +85,7 @@
         ```
 
 6. 用户设置挂载路径
-
+    - 左侧->`存储` -> `添加` ->`选择"本机存储"` (输入 '本' 就能显示出来)
+    - 挂载路径: `/`
+    - 跟文件夹路径: `/opt/openlist/files`
     - ![设置挂载路径](assets/设置挂载路径.png)

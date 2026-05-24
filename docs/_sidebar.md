@@ -18,6 +18,8 @@
   - [18. git仓库迁移](fe/18_git仓库迁移.md)
   - [19. 网页开启右键和断点](fe/19_网页开启右键和断点.md)
   - [20. 独立Prettier批量格式化工具](fe/20_独立Prettier批量格式化工具.md)
+  - [21. vsCode代码片段](fe/21_vsCode代码片段.md)
+  - [22. React进阶笔记:从Vue迁移到并发原理深度解析](fe/22_React进阶笔记:从Vue迁移到并发原理深度解析.md)
 - 后端笔记
   - [00. 使用代理运行脚本](server/00_代理运行脚本.md)
   - [01. ssh和scp免密](server/01_ssh免密登录scp拷贝文件.md)
@@ -36,6 +38,8 @@
   - [14. OpenList私有部署](server/14_OpenList部署.md)
   - [15. vps迁移记录](server/15_vps迁移记录.md)
   - [16. acme.sh配置ssl证书](server/16_acme.sh配置ssl证书记录.md)
+  - [17. VPS自建tailscale中继](server/17_VPS自建tailscale中继.md)
+  - [18. tmux使用手册](server/18_tmux使用手册.md)
 - webstorm
     - [01. 不识别HTML标签 (uni-app)](webstorm/01_不识别HTML标签%20(uni-app).md)
     - [02._uini-app识别@路径](webstorm/02_uini-app识别@路径.md)
