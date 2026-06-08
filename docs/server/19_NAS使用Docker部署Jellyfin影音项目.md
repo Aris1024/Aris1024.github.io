@@ -35,21 +35,20 @@
     ls -la /usr/local/etc/rc.d/
     ```
 
-- ![image](assets/image.png)
+- ![nas终端截图](assets/nas终端截图.png)
 
 - "**机器非常干净，没有任何被留置后门的迹象。**"
 
 3. 安装 Container Manager (Docker)：
 
-    - ![image (1)](assets/image (1).png)
-    - ![image (2)](assets/image (2).png)
-    - 
+    - ![container_manager_01](assets/container_manager_01.png)
+    - ![container_manager_02](assets/container_manager_02.png)
 
 4. 创建共享文件夹
 
     - 控制面板 - 共享文件夹
 
-    - ![image (3)](assets/image (3).png)
+    - ![创建共享文件夹](assets/创建共享文件夹.png)
 
     - > - **“在网上邻居隐藏此共享文件夹” (不勾选)：**
         >     保持不勾选。这样你以后在 Mac 上通过 Finder（访达）连接 NAS 时，能直接看到这个文件夹，方便你把电脑上的测试视频拖拽进去。
@@ -85,9 +84,9 @@
 
         在 Linux 系统里，Docker 认的不是用户名，而是底层的 UID (用户ID) 和 GID (组ID)。
 
-    - ![image (6)](assets/image (6).png)
+    - ![nas新增用户_01](assets/nas新增用户_01.png)
 
-    - ![image (7)](assets/image (7).png)
+    - ![nas新增用户_02](assets/nas新增用户_02.png)
 
     - 在终端查询 uid 和gid
 
@@ -177,15 +176,15 @@
 
     - 添加媒体库->"选择家庭视频和照片"->显示名称自定义(我这里是MacBook Pro)
 
-    - ![image (8)](assets/image (8).png)
+    - ![添加媒体库](assets/添加媒体库_01.png)
 
-    - ![image (9)](assets/image (9).png)
+    - ![添加媒体库](assets/添加媒体库_02.png)
 
     - 文件夹选择 `/media`->选 `mac`
 
-    - ![image (10)](assets/image (10).png)
+    - ![添加媒体库_03](assets/添加媒体库_03.png)
 
-    - ![image (12)](assets/image (12).png)
+    - ![添加媒体库_04](assets/添加媒体库_04.png)
 
     - ```
         # docker-compose.yml 挂载 media 到 宿主机 /volume1/jellyfin
@@ -237,9 +236,3 @@
         1. **权限失控 (Root 运行)：** Docker 容器默认会以最高权限的 root 身份运行。
         2. **文件所有权污染：** 以后 Jellyfin 自动下载的每一张电影海报、每一个 NFO 配置文件，在 Linux 底层的拥有者全都会变成 root。当你某天想在 Mac 上通过网络删掉一张下错的海报时，系统会无情地弹窗：*“您没有权限删除此文件”*（因为你的 Mac 登录的是普通账号 aris，删不掉 root 的东西），极其折磨人。
         3. **巨大的安全隐患：** 假设有一天 Jellyfin 爆出了漏洞，黑客通过网页攻破了你的播放器。如果它是 root 运行的，黑客就能直接顺着网线“穿透”容器，看到甚至删掉你群晖里那些绝密的 photo 和备份文件夹！
-
-13. 
-
-14. 的
-
-15. 
