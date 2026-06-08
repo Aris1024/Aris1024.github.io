@@ -40,6 +40,7 @@
   - [16. acme.sh配置ssl证书](server/16_acme.sh配置ssl证书记录.md)
   - [17. VPS自建tailscale中继](server/17_VPS自建tailscale中继.md)
   - [18. tmux使用手册](server/18_tmux使用手册.md)
+  - [19. NAS使用Docker部署Jellyfin影音项目](server/19_NAS使用Docker部署Jellyfin影音项目.md)
 - webstorm
     - [01. 不识别HTML标签 (uni-app)](webstorm/01_不识别HTML标签%20(uni-app).md)
     - [02._uini-app识别@路径](webstorm/02_uini-app识别@路径.md)
