@@ -45,6 +45,7 @@
   - [21. 解决NVM环境变量不生效的问题](server/21_解决NVM环境变量不生效的问题.md)
   - [22. 2011款Macmini爆改Debian13记录](server/22_2011款Macmini爆改Debian13记录.md)
   - [23. Python环境管理uv极简指南](server/23_Python环境管理uv极简指南.md)
+  - [24. NVM-Node-npm-pnpm与Corepack关系梳理](server/24_NVM-Node-npm-pnpm与Corepack关系梳理.md)
 - webstorm
     - [01. 不识别HTML标签 (uni-app)](webstorm/01_不识别HTML标签%20(uni-app).md)
     - [02._uini-app识别@路径](webstorm/02_uini-app识别@路径.md)
