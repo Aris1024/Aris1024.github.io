@@ -1,5 +1,5 @@
 # NVM、Node、npm、pnpm 与 Corepack 关系梳理
-
+![nvm](assets/nvm.png)
 本文记录在 Debian 13 中使用 NVM 管理 Node.js，以及安装 pnpm 时容易混淆的几个点。
 
 ## 1. 基本原则
